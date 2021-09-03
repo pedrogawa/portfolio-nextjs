@@ -1,6 +1,6 @@
 # portifolio-nextjs
 
-Portifolio feito em NextJs com o intuito de estudo e prática com a nova tecnologia.
+Portfolio feito em NextJs com o intuito de estudo e prática com a nova tecnologia.
 
 Utilização de display grid para formação do layout e sua responsividade.
 Foi utilizado a API do Prismic para fazer os posts dos projetos e carrega-los dinamicamente.
