@@ -40,7 +40,6 @@ export default function Projects({ projects }: ProjectsProps) {
           {projects.map(project => {
             return (
               <React.Fragment key={project.slug}>
-                {/* <Link href={`/projects/${project.slug}`}> */}
                 <Projecto
                   onClick={() => router.push(`/projects/${project.slug}`)}
                 >
@@ -51,7 +50,6 @@ export default function Projects({ projects }: ProjectsProps) {
                   </div>
                 </Projecto>
                 <Border />
-                {/* </Link> */}
               </React.Fragment>
             );
           })}
