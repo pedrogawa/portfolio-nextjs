@@ -1,7 +1,6 @@
-import React, { useCallback } from 'react';
+import React from 'react';
 import { motion, useCycle } from 'framer-motion';
 
-import { useRouter } from 'next/router';
 import { Content, Container } from './styles';
 import Hamburger from '../Hamburger';
 
