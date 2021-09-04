@@ -10,7 +10,7 @@
   "dependencies": {
     "@prismicio/client": "^5.1.0",
     "framer-motion": "^4.1.17",
-    "next": "9.5.2",
+    "next": "10",
     "next-images": "^1.4.1",
     "prismic-dom": "^2.2.6",
     "react": "16.13.1",

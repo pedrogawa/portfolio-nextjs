@@ -2,6 +2,8 @@
 import { GetServerSideProps } from 'next';
 import React from 'react';
 
+import Head from 'next/head';
+
 import { RichText } from 'prismic-dom';
 import { motion } from 'framer-motion';
 import { getPrismicClient } from '../../services/prismic';
@@ -21,6 +23,9 @@ export default function Project({ project }: ProjectProps) {
       animate={{ opacity: 1 }}
     >
       <Container>
+        <Head>
+          <title>Projeto</title>
+        </Head>
         <article>
           <h1>{project.title}</h1>
           <time>{project.updatedAt}</time>

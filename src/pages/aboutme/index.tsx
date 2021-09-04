@@ -5,6 +5,7 @@ import { SiLinkedin, SiGithub } from 'react-icons/si';
 import { useTheme } from 'styled-components';
 
 import { motion } from 'framer-motion';
+import Head from 'next/head';
 import {
   Content,
   Container,
@@ -29,6 +30,9 @@ export default function AboutMe() {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
     >
+      <Head>
+        <title>About me</title>
+      </Head>
       <Container>
         <Content>
           <LeftContainer>
