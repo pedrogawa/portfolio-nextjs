@@ -12,7 +12,12 @@ import { getPrismicClient } from '../../services/prismic';
 
 import { Project } from '../../models/Project';
 
-import { Border, Container, Projecto, ProjectsContainer } from './styles';
+import {
+  Border,
+  Container,
+  Projecto,
+  ProjectsContainer
+} from '../../styles/pages/Projects';
 
 interface ProjectsProps {
   projects: Project[];

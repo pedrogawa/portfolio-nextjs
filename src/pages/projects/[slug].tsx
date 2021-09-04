@@ -8,7 +8,7 @@ import { RichText } from 'prismic-dom';
 import { motion } from 'framer-motion';
 import { getPrismicClient } from '../../services/prismic';
 
-import { Container } from './project';
+import { Container } from '../../styles/pages/Project';
 import { Project as ProjectModel } from '../../models/Project';
 
 interface ProjectProps {

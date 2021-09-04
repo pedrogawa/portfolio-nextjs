@@ -58,7 +58,6 @@ export default function Sidebar() {
   return (
     <Container
       as={motion.nav}
-      visible={isOpen}
       initial={false}
       animate={isOpen ? 'open' : 'closed'}
     >

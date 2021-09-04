@@ -16,7 +16,7 @@ import {
   RightContent,
   LeftContainer,
   RightContainer
-} from './styles';
+} from '../../styles/pages/Contact';
 
 export default function Contact() {
   const theme = useTheme();

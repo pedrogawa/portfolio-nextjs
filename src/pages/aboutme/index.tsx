@@ -13,7 +13,7 @@ import {
   RightContent,
   LeftContainer,
   RightContainer
-} from './styles';
+} from '../../styles/pages/Aboutme';
 
 import { ReactComponent as JavaScript } from '../../assets/javascript.svg';
 import { ReactComponent as TypeScript } from '../../assets/typescript.svg';
