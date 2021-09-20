@@ -37,6 +37,7 @@ export default function Projects({ projects }: ProjectsProps) {
           <title>Projetos</title>
         </Head>
         <ProjectsContainer>
+          <span>Teste</span>
           {projects.map(project => {
             return (
               <React.Fragment key={project.slug}>
